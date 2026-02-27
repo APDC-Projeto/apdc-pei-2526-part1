@@ -1,4 +1,4 @@
-package pt.unl.fct.di.apdc.firstwebapp.resources;
+package pt.unl.fct.di.adc.firstwebapp.resources;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -30,7 +30,7 @@ public class ComputationResource {
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response hello() {
 		LOG.fine("Saying hello!!");
-		return Response.ok().entity("Hello apdc-pei-2526 class! I hope you are having a fine day.").build();
+		return Response.ok().entity("Hello adc-pei-2526 class! I hope you are having a fine day.").build();
 	}
 	
 	@GET
